@@ -36,7 +36,7 @@ ax.annotate('Possible elbow points', xy=(5, 80000), xytext=(5, 150000), xycoords
             arrowprops=dict(arrowstyle='->', connectionstyle='arc3', color='blue', lw=2))
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
-elbow_plot = st.pyplot()
+elbo_plot = st.pyplot()
 
 st.sidebar.subheader("Nilai Jumblah Klastering")
 clust = st.sidebar.slider("Pilih Jumblah Kluster:", 2,10,3,1)
